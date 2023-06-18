@@ -17,32 +17,26 @@ const about = () => {
       <TransitionEffect/>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout classname="pt-16">
-          <AnimatedText text={"Passion Fuels Purpose!"} className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+          <AnimatedText text={"About Me"} className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           <div className="grid w-full grid-cols-6 gap-3 sm:gap-8 ">
             <div className="col-span-3 flex flex-col items-start justify-start pr-10 dark:text-light xl:col-span-8 md:order-2 pb-[20px]">
-              <h2 className="mb-4 dark:text-light/75 text-[45px] font-bold uppercase text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm ">
-                About me
-              </h2>
               <p className="font-medium text-[20px]">
-                Hi, I&apos;m Alain Cherubin,a self-taught web developer
-                with a passion for creating beautiful, functional, and
-                user-centered digital experiences. With 4 years of experience in
-                the field. I am always looking for new and innovative ways to
-                bring my clients&apos; visions to life.
+              Hi there, my name is Alain Cherubin and I'm a self-taught front-end web developer. While I may not have any prior experience working in the industry, I'm passionate about web development and eager to learn as much as I can.
+
+              I first became interested in web development when i was intrigued by animations and features on websites.As I learned more about programming languages like HTML, CSS, and JavaScript, I became fascinated with the idea of creating beautiful, functional websites that could be accessed by anyone in the world.
+
               </p>
 
               <p className="font-medium my-4 text-[20px]">
-                I believe that design is about more than just making things look
-                pretty ... it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+              Since then, I've spent countless hours honing my skills and building my portfolio. I've worked on a variety of personal projects, from simple landing pages to more complex web applications. I've also taken online courses and attended workshops to stay up-to-date with the latest trends and best practices in front-end development.
+
+              One of the things that excites me most about web development is the constant opportunity for growth and learning. With new frameworks, libraries, and tools being developed all the time, there's always something new to explore and experiment with.
               </p>
 
               <p className="font-medium text-[20px]">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              Above all, I'm a hard-working, dedicated individual who is eager to contribute to a team and make a meaningful impact. I'm excited to take on new challenges and work collaboratively with other developers to create amazing websites and applications.
+
+              Thank you for taking the time to learn more about me. If you have any questions or would like to discuss a potential job opportunity, feel free to reach out via email or LinkedIn. I look forward to hearing from you!
               </p>
             </div>
 
