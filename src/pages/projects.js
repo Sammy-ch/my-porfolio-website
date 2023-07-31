@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/financeapp.png";
-import project2 from "../../public/images/projects/CarHub.png";
+import project2 from "../../public/images/projects/carhub.png";
 import project3 from "../../public/images/projects/project1.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
