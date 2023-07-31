@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import css3 from "../../public/images/skills/css.png";
 import html5 from "../../public/images/skills/html.png";
@@ -11,7 +12,10 @@ import tailwind from "../../public/images/skills/tailwind.png";
 import wordpress from "../../public/images/skills/wordpress.svg";
 import git from "../../public/images/skills/git.png";
 import figma from "../../public/images/skills/figma.svg";
-import Image from "next/image";
+import svelte from "../../public/images/skills/svelte.svg"
+import supabase from "../../public/images/skills/supabase.svg"
+import typescript from  "../../public/images/skills/typescript.svg"
+import postgres from  "../../public/images/skills/postgresql-vertical.svg"
 
 const Skill = ({  img, x, y, }) => {
   return (
@@ -45,13 +49,17 @@ const Skills = () => {
         <Skill img={html5} x="-10vw" y="-16vw" />
         <Skill img={javascript} x="18vw" y="4vw" />
         <Skill img={react} x="0vw" y="18vw" />
-        <Skill img={node} x="30vw" y="-8vw" />
+        <Skill img={node} x="30vw" y="-2vw" />
         <Skill img={mongo} x="30vw" y="15vw" />
         <Skill img={nextjs} x="-30vw" y="-15vw" />
         <Skill img={tailwind} x="-30vw" y="0vw" />
         <Skill img={wordpress} x="10vw" y="-18vw" />
         <Skill img={figma} x="-15vw" y="-05vw" />
         <Skill img={git} x="15vw" y="17vw" />
+        <Skill img={supabase} x="-15vw" y="6vw" />
+        <Skill img={typescript} x="25vw" y="-17vw" />
+        <Skill img={postgres} x="13vw" y="-6vw" />
+        <Skill img={svelte} x="-32vw" y="17vw" />
       </div>
     </>
   );

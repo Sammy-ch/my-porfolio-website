@@ -5,9 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/project1.png";
-import project2 from "../../public/images/projects/project2.png";
-import project3 from "../../public/images/projects/project3.png";
+import project1 from "../../public/images/projects/financeapp.png";
+import project2 from "../../public/images/projects/CarHub.png";
+import project3 from "../../public/images/projects/project1.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
@@ -120,33 +120,33 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className=" col-span-12">
               <FeaturedProject
-                title={"myTeam Website"}
+                title={"Finance-dashboard"}
                 img={project1}
                 summary={
-                  "myTeam Website using using Nextjs, TailwindCss and MantineUI .Fully responsive Built from scratch Using Figma Designs"
+                  "Finance dashboard using MongoDb, Express, React and nodeJS.Fully responsive and Built for Business individuals to display their infoamtion about Key Perfomance indicators to keep track of their finances plus show predictions for the coming year using Machine Learning."
                 }
-                link={"https://myteam-website-sandy.vercel.app/"}
+                link={"https://finance-mern-app.vercel.app/"}
                 type={"Featured Project"}
-                github="https://github.com/Sammy-ch/myteam-website"
+                github="https://github.com/Sammy-ch/finance-mern-app/tree/main/client"
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title={"PayApi Website"}
+                title={"CarHub Website"}
                 img={project2}
                 
-                link={"https://pay-api-website-nextjs.vercel.app/"}
+                link={"https://nextjscarhub-orcin.vercel.app/"}
                 type={"Project"}
-                github="https://github.com/Sammy-ch/pay-api-website-nextjs"
+                github="https://github.com/Sammy-ch/Next_car_showcase"
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title={"Photosnap Website"}
+                title={"MyTeam Website"}
                 img={project3}
-                link={"https://photosnap-website-nextjs.vercel.app/"}
-                type={"Featured Project"}
-                github="https://github.com/Sammy-ch/photosnap_website_nextjs"
+                link={"https://myteam-website-sandy.vercel.app/"}
+                type={"Project"}
+                github="https://github.com/Sammy-ch/myteam-website"
               />
             </div>
           </div>

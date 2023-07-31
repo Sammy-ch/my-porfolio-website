@@ -21,7 +21,7 @@ const about = () => {
           <div className="grid w-full grid-cols-6 gap-3 sm:gap-8 ">
             <div className="col-span-3 flex flex-col items-start justify-start pr-10 dark:text-light xl:col-span-8 md:order-2 pb-[20px]">
               <p className="font-medium text-[20px]">
-              Hi there, my name is Alain Cherubin and I'm a self-taught front-end web developer. While I may not have any prior experience working in the industry, I'm passionate about web development and eager to learn as much as I can.
+              Hi there, my name is Alain Cherubin and I'm a self-taught Fullstack Software developer.I'm passionate about Software development and eager to learn as much as I can.
 
               I first became interested in web development when i was intrigued by animations and features on websites.As I learned more about programming languages like HTML, CSS, and JavaScript, I became fascinated with the idea of creating beautiful, functional websites that could be accessed by anyone in the world.
 
